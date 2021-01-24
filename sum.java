@@ -1,9 +1,10 @@
 package com.company;
-import java.util.Scanner;
-public class sum {
+import java.util.Scanner; //here we import scanner class
+public class sum          //Class name must be same as filename and must follow Pascal naming convention
+{
 
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in); 
         System.out.println("Enter number 1-");
         int a=sc.nextInt();
         System.out.println("Enter number 2-");
